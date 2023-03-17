@@ -30,4 +30,5 @@ nav{
 .container{
     background-color: orange;
     width: 80%;
+    margin: auto;
 }
