@@ -26,3 +26,8 @@ nav{
 .banner{
     width: 100%;
 }
+
+.container{
+    background-color: orange;
+    width: 80%;
+}
