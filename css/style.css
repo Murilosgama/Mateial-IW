@@ -32,3 +32,10 @@ nav{
     width: 80%;
     margin: auto;
 }
+
+footer{
+    background-color: rgb(255, 140, 0);
+    color: darksalmon;
+    font-size: 1.3em;
+    text-align: center;
+}
