@@ -1,11 +1,12 @@
 body{
-    backgroud-color: rgb(134, 248, 173);
+    backgroud-color: rgb(228, 247, 84);
 }
 h1{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 140, 0);
     text-alingn: center;
 }
 
 header{
     width: ;
+    background-color: goldenrod;
 }
