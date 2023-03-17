@@ -1,0 +1,7 @@
+body{
+    backgroud-color: rgb(134, 248, 173);
+}
+h1{
+    color: rgb(255, 0, 0);
+    text-alingn: center;
+}
