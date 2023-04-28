@@ -1,6 +1,8 @@
 body{
     background-color: rgb(228, 247, 84);
     background-image: url(../img/fundo2.jpg);
+    background-position: center;
+    background-attachment: fixed;
     font-family: 'Press Start 2P', cursive;
 }
 h1,h2{
@@ -15,6 +17,7 @@ p{
     color: black;
     padding-top: 1.0%;
     padding-bottom: 1.0%;
+    font-size: 0.9em;
 }
 
 header{
@@ -36,6 +39,12 @@ nav{
 
 .banner{
     width: 100%;
+}
+
+section{
+    padding-left: 2.0%;
+    padding-right: 2.0%;
+
 }
 
 .container{
