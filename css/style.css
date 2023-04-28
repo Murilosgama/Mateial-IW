@@ -1,6 +1,7 @@
 body{
     background-color: rgb(228, 247, 84);
     background-image: url(../img/fundo2.jpg);
+    font-family: 'Press Start 2P', cursive;
 }
 h1,h2{
     color: rgb(32, 31, 29);
