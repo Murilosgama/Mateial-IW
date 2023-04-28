@@ -1,7 +1,7 @@
 body{
     background-color: rgb(228, 247, 84);
     background-image: url(../img/fundo2.jpg);
-    background-position: right;
+    background-position: center;
     background-attachment: fixed;
     font-family: 'Press Start 2P', cursive;
 }
@@ -17,7 +17,11 @@ p{
     color: black;
     padding-top: 1.0%;
     padding-bottom: 1.0%;
-    font-size: 0.9em;
+    font-size: 0.5em;
+}
+
+.lista li{
+    font-size: 0.5em;
 }
 
 header{
