@@ -17,11 +17,13 @@ p{
     color: black;
     padding-top: 1.0%;
     padding-bottom: 1.0%;
-    font-size: 0.5em;
+    font-size: 0.7em;
+    line-height: 1.5em;
 }
 
 .lista li{
-    font-size: 0.5em;
+    font-size: 0.7em;
+    line-height: 2.0em;
 }
 
 header{
