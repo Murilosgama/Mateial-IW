@@ -1,10 +1,7 @@
 body{
     background-color: rgb(228, 247, 84);
     background-image: url(../img/fundo2.jpg);
-    background-image: url(../img/fundo2.2.jpg);
-    background-repeat: no-repeat;
     background-position: right;
-    background-position: left;
     background-attachment: fixed;
     font-family: 'Press Start 2P', cursive;
 }
