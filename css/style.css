@@ -103,3 +103,15 @@ footer{
 .mundo{
     text-align: center;
 }
+
+.tiro1{
+    text-align: left;
+}
+
+.tiro2{
+    text-align: center;
+}
+
+.tiro3{
+    text-align: right;
+}
