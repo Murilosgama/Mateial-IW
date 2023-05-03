@@ -33,6 +33,9 @@ p{
 header{
     width: 100%;
     background-color: goldenrod;
+}
+
+header p{
     text-align: center;
 }
 
