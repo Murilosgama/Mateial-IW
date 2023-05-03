@@ -35,14 +35,13 @@ header{
     background-color: goldenrod;
 }
 
-.Logo{
-    color: aliceblue;
+.logo{
+    color: black;
     text-align: center;
     font-size: 1.4em;
 }
 
 nav{
-    color: aliceblue;
     text-align: center;
     font-size: 1.4em;
 }
