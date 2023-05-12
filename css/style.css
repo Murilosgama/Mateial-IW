@@ -37,7 +37,10 @@ p{
 
 header{
     width: 100%;
-    background-color: goldenrod;
+    background-color: orange;
+    background-image: url(../img/fundo\ new.jpg);
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .logo{
@@ -52,7 +55,8 @@ nav{
 }
 
 .banner{
-    width: 100%;
+    width: 50%;
+    background-position: center;
 }
 
 section{
@@ -152,4 +156,8 @@ h3{
 
 .cha3{
     width: 45%;
+}
+
+.foo{
+    text-align: center;
 }
