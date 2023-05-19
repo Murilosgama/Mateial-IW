@@ -2,6 +2,10 @@ html{
     scroll-behavior: smooth;
 }
 
+.mundo{
+    font-size: 1.5em;
+}
+
 body{
     background-color: rgb(228, 247, 84);
     background-image: url(../img/fundo\ new.jpg);
