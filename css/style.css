@@ -183,6 +183,8 @@ a:hover {
     display: flex;
     flex-flow: row wrap;
     text-align: center; 
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
 }
 
 .col-6{
@@ -202,4 +204,6 @@ a:hover {
 
   .card{
     font-size: 0.9em;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
   }
