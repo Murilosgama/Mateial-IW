@@ -199,3 +199,7 @@ a:hover {
         width: 100%;
     }
   }
+
+  .card{
+    font-size: 0.9em;
+  }
