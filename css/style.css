@@ -234,7 +234,7 @@ a:hover {
 
 .tir{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column;
     text-align: center; 
     padding-top: 1.5%;
     padding-bottom: 1.5%;
@@ -242,4 +242,9 @@ a:hover {
 
 .cold-4{
     width: 33.3%;
+}
+
+.p-tiro{
+    text-align: justify;
+    padding-bottom: 2.5em
 }
