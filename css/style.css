@@ -203,23 +203,23 @@ a:hover {
     }
   }
 
-  .card{
+.card{
     font-size: 0.9em;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
-  }
+}
 
-  .serieCup{
+.serieCup{
     display: flex;
     flex-flow: row wrap;
     text-align: center; 
     padding-top: 1.5%;
     padding-bottom: 1.5%;
-  }
+}
 
-    .serimg{
-        width: 50%;
-    }
+.serimg{
+    width: 50%;
+}
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
@@ -231,3 +231,15 @@ a:hover {
         width: 100%;
     }
   }
+
+.tir{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center; 
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+.cold-4{
+    width: 33.3%;
+}
