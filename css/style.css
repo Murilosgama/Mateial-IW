@@ -64,7 +64,7 @@ nav{
 
 .banner{
     width: 80%;
- padding-left: 12em;
+ padding-left: 8em;
 }
 
 section{
@@ -205,8 +205,9 @@ a:hover {
 
 .card{
     font-size: 0.9em;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
+    padding-top: 2.0%;
+    padding-bottom: 2.0%;
+    text-shadow: 2px 2px whitesmoke;
 }
 
 .serieCup{
@@ -247,4 +248,22 @@ a:hover {
 .p-tiro{
     text-align: justify;
     padding-bottom: 2.5em
+}
+
+.vid-card{
+    background-image: linear-gradient(to bottom right, #e11608 , #e86b2d , #f8e731);
+    width: 90%;
+    border-style: groove;
+    border-color: gold;
+    border-width: 5px;
+    box-shadow: 10px 10px 10px 2px rgba(151, 75, 31, 0.596);
+}
+
+.box-card{
+    background-image: linear-gradient(to top right, #e11608 , #e86b2d , #f8e731);
+    width: 90%;
+    border-style: groove;
+    border-color: gold;
+    border-width: 5px;
+    box-shadow: 10px 10px 10px 2px rgba(151, 75, 31, 0.596);
 }
