@@ -190,6 +190,8 @@ a:hover {
 
 .col-6{
     width: 50%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
@@ -243,6 +245,15 @@ a:hover {
 
 .cold-4{
     width: 33.3%;
+    border-style: groove;
+    border-color: gold;
+    border-width: 5px;
+}
+
+.cold4-card{
+    border-style: groove;
+    border-color: gold;
+    border-width: 5px;
 }
 
 .p-tiro{
