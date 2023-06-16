@@ -295,7 +295,9 @@ a:hover {
 }
 
 table, th, td{
+    width: 100%;
     border: 2.5px solid rgba(207, 42, 9, 0.884);
+    
   }
 
   th, td{
