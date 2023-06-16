@@ -293,3 +293,11 @@ a:hover {
 .n-tir3{
     text-shadow: 2px 2px #597D53;
 }
+
+table, th, td{
+    border: 2.5px solid rgba(207, 42, 9, 0.884);
+  }
+
+  th, td{
+    padding: 5px;
+  }
