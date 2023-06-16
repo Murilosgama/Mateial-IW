@@ -283,5 +283,13 @@ a:hover {
 }
 
 .n-tir1{
-    
+    text-shadow: 2px 2px #548791;
+}
+
+.n-tir2{
+    text-shadow: 2px 2px #B4391F;
+}
+
+.n-tir3{
+    text-shadow: #597D53;
 }
