@@ -310,3 +310,15 @@ th, td{
     margin: auto;
     padding-bottom: 1em;
 }
+
+.tr1{
+    text-shadow: 2px 2px #548791;
+}
+
+.tr2{
+    text-shadow: 2px 2px #B4391F;
+}
+
+.tr3{
+    text-shadow: 2px 2px #597D53;
+}
