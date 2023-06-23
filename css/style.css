@@ -335,6 +335,18 @@ th, td{
     text-shadow: 2px 2px #597D53;
 }
 
+.tr4{
+    text-shadow: 2px 2px #404B74;
+}
+
+.tr5{
+    text-shadow: 2px 2px #9B7431;
+}
+
+.tr6{
+    text-shadow: 2px 2px #4B9A9B;
+}
+
 .lob2{
     width: 30%;
     text-align: center;
@@ -350,4 +362,8 @@ th, td{
 
 .vai2{
     width: 30%;
+}
+
+.coluns{
+    flex-direction: column;
 }
