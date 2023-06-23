@@ -318,14 +318,15 @@ a:hover {
     text-shadow: 2px 2px #8E514B;
 }
 
-table, th, td{
+table{
     width: 100%;
-    border: 2.5px solid rgba(207, 42, 9, 0.884);
+   
     
 }
 
 th, td{
     padding: 5px;
+    border: 2.5px solid rgba(207, 42, 9, 0.884);
 }
   
 .container3{
