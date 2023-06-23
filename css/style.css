@@ -306,6 +306,18 @@ a:hover {
     text-shadow: 2px 2px #4B9A9B;
 }
 
+.n-tir7{
+    text-shadow: 2px 2px #2D8872;
+}
+
+.n-tir8{
+    text-shadow: 2px 2px #B37701;
+}
+
+.n-tir9{
+    text-shadow: 2px 2px #8E514B;
+}
+
 table, th, td{
     width: 100%;
     border: 2.5px solid rgba(207, 42, 9, 0.884);
@@ -347,13 +359,29 @@ th, td{
     text-shadow: 2px 2px #4B9A9B;
 }
 
+.tr7{
+    text-shadow: 2px 2px #2D8872;
+}
+
+.tr8{
+    text-shadow: 2px 2px #B37701;
+}
+
+.tr9{
+    text-shadow: 2px 2px #8E514B;
+}
+
 .lob2{
     width: 30%;
     text-align: center;
 }
 
 .tir2{
-    text-align: center;
+    display: flex;
+    flex-flow: column;
+    text-align: center; 
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
 }
 
 .des2{
@@ -362,4 +390,24 @@ th, td{
 
 .vai2{
     width: 30%;
+}
+
+.con2{
+    width: 25%;
+}
+
+.cer2{
+    width: 25%;
+}
+
+.tor2{
+    width: 25%;
+}
+
+.tir3{
+    display: flex;
+    flex-flow: column;
+    text-align: center; 
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
 }
