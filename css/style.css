@@ -294,6 +294,18 @@ a:hover {
     text-shadow: 2px 2px #597D53;
 }
 
+.n-tir4{
+    text-shadow: 2px 2px #404B74;
+}
+
+.n-tir5{
+    text-shadow: 2px 2px #9B7431;
+}
+
+.n-tir6{
+    text-shadow: 2px 2px #4B9A9B;
+}
+
 table, th, td{
     width: 100%;
     border: 2.5px solid rgba(207, 42, 9, 0.884);
@@ -321,4 +333,21 @@ th, td{
 
 .tr3{
     text-shadow: 2px 2px #597D53;
+}
+
+.lob2{
+    width: 30%;
+    text-align: center;
+}
+
+.tir2{
+    text-align: center;
+}
+
+.des2{
+    width: 30%;
+}
+
+.vai2{
+    width: 30%;
 }
