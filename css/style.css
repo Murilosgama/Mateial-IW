@@ -426,7 +426,7 @@ th, td{
 }
 
 .set4{
-
+list-style-image: url(../img/piratafav.png);
 }
 
 .set5{
@@ -434,7 +434,7 @@ th, td{
 }
 
 .set6{
-
+    list-style-image: url(../img/sapofav.png);
 }
 
 .set7{
@@ -446,7 +446,7 @@ th, td{
 }
 
 .set9{
-
+    list-style-image: url(../img/luafav.png);
 }
 
 .set10{
