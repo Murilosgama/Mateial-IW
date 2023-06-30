@@ -4,6 +4,7 @@ html{
 
 .mundo{
     font-size: 1.5em;
+    text-shadow: 2px 2px white;
 }
 
 body{
@@ -323,10 +324,7 @@ table{
 }
 
 th, td{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding: 5px;
     border: 2.5px solid rgba(207, 42, 9, 0.884);
 }
   
