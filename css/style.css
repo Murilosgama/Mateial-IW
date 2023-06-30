@@ -426,7 +426,7 @@ th, td{
 }
 
 .set4{
-list-style-image: url(../img/piratafav.png);
+    list-style-image: url(../img/piratafav.png);
 }
 
 .set5{
