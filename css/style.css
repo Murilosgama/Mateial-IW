@@ -238,6 +238,7 @@ a:hover {
 .tir{
     display: flex;
     flex-flow: column;
+    flex-flow: row;
     text-align: center; 
     padding-top: 1.5%;
     padding-bottom: 1.5%;
@@ -380,6 +381,7 @@ th, td{
 .tir2{
     display: flex;
     flex-flow: column;
+    flex-flow: row;
     text-align: center; 
     padding-top: 1.5%;
     padding-bottom: 1.5%;
@@ -399,15 +401,18 @@ th, td{
 
 .cer2{
     width: 25%;
+    padding-bottom: 0.2em;
 }
 
 .tor2{
     width: 25%;
+    padding-bottom: 0.5em;
 }
 
 .tir3{
     display: flex;
     flex-flow: column;
+    flex-flow: row;
     text-align: center; 
     padding-top: 1.5%;
     padding-bottom: 1.5%;
@@ -455,4 +460,44 @@ th, td{
 
 .set11{
     list-style-image: url(../img/demonfav.png);
+}
+
+.p-tiro1{
+    text-align: justify;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.p-tiro2{
+    text-align: justify;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.p-tiro3{
+    text-align: justify;
+    padding-top: 1em;
+    padding-bottom: 1.3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.p-tiro4{
+    text-align: justify;
+    padding-top: 1em;
+    padding-bottom: 1.2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.p-tiro5{
+    text-align: justify;
+    padding-top: 1em;
+    padding-bottom: 1.3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
