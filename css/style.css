@@ -64,7 +64,6 @@ nav{
 
 .banner{
     width: 80%;
- padding-left: 8em;
 }
 
 section{
@@ -500,4 +499,8 @@ th, td{
     padding-bottom: 1.3em;
     padding-left: 0.5em;
     padding-right: 0.5em;
+}
+
+.bannerfig{
+    text-align: center;
 }
