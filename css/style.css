@@ -53,9 +53,12 @@ header{
 }
 
 .logo{
-    color: black;
     text-align: center;
-    font-size: 1.4em;
+    padding-bottom: 0.5em;
+}
+
+.logo-top{
+    width: 30%;
 }
 
 nav{
