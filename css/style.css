@@ -462,16 +462,16 @@ th, td{
 
 .p-tiro1{
     text-align: justify;
-    padding-top: 1em;
-    padding-bottom: 1.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
 
 .p-tiro2{
     text-align: justify;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 2.8em;
+    padding-bottom: 2.8em;
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
@@ -486,13 +486,21 @@ th, td{
 
 .p-tiro4{
     text-align: justify;
-    padding-top: 1.3em;
-    padding-bottom: 1.2em;
+    padding-top: 2em;
+    padding-bottom: 1.9em;
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
 
 .p-tiro5{
+    text-align: justify;
+    padding-top: 2em;
+    padding-bottom: 1.9em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.p-tiro6{
     text-align: justify;
     padding-top: 1.3em;
     padding-bottom: 1.3em;
@@ -500,9 +508,17 @@ th, td{
     padding-right: 0.5em;
 }
 
-.p-tiro6{
+.p-tiro7{
     text-align: justify;
     padding-top: 1.2em;
+    padding-bottom: 1.3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.p-tiro8{
+    text-align: justify;
+    padding-top: 1.3em;
     padding-bottom: 1.3em;
     padding-left: 0.5em;
     padding-right: 0.5em;
