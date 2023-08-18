@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Teste position</title>
+    <style>
+        header{
+            background-color: aqua;  
+        }
+        .grande{
+            text-align: center;
+            font-size: 3em;
+        }
+        .sticky{
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1;
+        }
+        section{
+            position: relative;
+        }
+        figure{
+            text-align: center;
+            position: relative
+        }
+        .rela{
+            position: relative
+        }
+        .cd{
+            position: absolute;
+            top: 5px;
+            right: 10px;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1 class="grande">GRANDE</h1>
+    <header class="sticky">
+        <nav>
+            <h1>Teste</h1>
+        </nav>
+    </header>
+    <section>
+        <div class="rela">
+            <figure><img src="img/papelão.jpg" alt="">
+                <p class="cd">Cima direita</p>
+                <p class="ce">Cima esquerda</p>
+                <p class="m">Meio</p>
+                <p class="bd">Baixo direita</p>
+                <p class="be">Baixo esquerda</p>
+            </figure>
+        </div>
+    </section>
 </body>
 </html>

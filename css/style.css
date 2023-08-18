@@ -86,6 +86,7 @@ footer{
     color: rgb(8, 7, 7);
     font-size: 1.3em;
     text-align: center;
+    position: relative;
 }
 
 .img1{
@@ -529,4 +530,11 @@ th, td{
 
 .bannerfig{
     text-align: center;
+}
+
+.posi{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 0.3em;
 }
