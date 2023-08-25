@@ -35,40 +35,49 @@
             position: relative;
             top: 60px;
         }      
+        .img{
+            width: 100%;
+            z-index: 0;
+        }
         .container{
             width: 100%;
-            height: 1220px;
-            top:60px;
             position: relative;
         }     
         .cd{
             position: absolute;
-            width: 20%;
-            right: 16px;
-            top: 50px;
+            top: 25px;
+            right: 40px;
         }
         .ce{
             position: absolute;
-            width: 20%;
-            left: 16px;
-            top: 50px;
+            top: 25px;
+            left: 40px;
+        }
+        .m{
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            text-align: center;
         }
         .be{
             position: absolute;
-            width: 20%;
-            bottom: 10px;
-            left: 16px;
+            bottom: 35px;
+            left: 40px;
         }
         .bd{
             position: absolute;
-            width: 20%;
-            bottom: 10px;
-            right: 16px;
+            bottom: 35px;
+            right: 40px;
+        }
+        .fix{
+            position: fixed;
+            bottom: 15px;
+            left: 16px;
         }
     </style>
 </head>
 <body>
-    <h1 class="grande">GRANDE</h1>
+    <h1 class="grande">INICIO</h1>
     <header class="sticky">
         <nav>
             <h1>Teste</h1>
@@ -76,7 +85,7 @@
     </header>
     <section class="container">
         <div class="rela">
-            <figure><img src="img/papelão.jpg" alt="">
+            <figure><img class="img" src="img/papelão.jpg" alt="">
                 <p class="cd">Cima direita</p>
                 <p class="ce">Cima esquerda</p>
                 <p class="m">Meio</p>

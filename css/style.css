@@ -22,6 +22,15 @@ h1,h2{
     padding-bottom: 1.5%;
 }
 
+.menu_fix{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: orange;
+}
+
 .menu li{
     padding-bottom: 1.0%;
     padding-top: 1.0%;
@@ -50,6 +59,40 @@ header{
     background-image: url(../img/fundo\ new.jpg);
     background-position: center;
     background-attachment: fixed;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width:601px){
+    header{
+        flex-direction: row;
+        background-color: orange;
+    }
+
+    .it_menu{
+        position: absolute;
+        right: 3%;
+        top: 30%;
+        width: 70%;
+      }
+    
+      .it_menu ul li {
+            display: inline;
+            margin-left: 1%;
+      }
+    
+      .banner{
+        margin-top: 8%;
+      }
+    
+      .logo{
+        padding-top: 1%;
+        padding-bottom: 1%;
+        text-align: left;
+        width: 30%;
+      }
 }
 
 .logo{
