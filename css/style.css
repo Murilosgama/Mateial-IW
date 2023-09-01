@@ -23,55 +23,6 @@ h1,h2{
     padding-bottom: 1.5%;
 }
 
-.menu_it_home{
-    position: relative;
-}
-
-.menu_it_hab{
-    position: relative;
-}
-
-.it_menu .menu .dropdown li{
-    display: block;
-}
-
-.dropdown{
-    text-align: justify;
-    position: absolute;
-    flex-direction: column;
-    background-color: orange;
-    padding-left: 5%;
-    padding-right: 5%;
-    top: 11;
-    left: -1;
-    display: none;
-}
-
-.dropdown2{
-    text-align: justify;
-    position: absolute;
-    flex-direction: column;
-    background-color: orange;
-    padding-left: 5%;
-    padding-right: 5%;
-    top: 11;
-    left: 900;
-    display: none;
-}
-
-.menu_it_home:hover .dropdown{
-    display: block;
-}
-
-.menu_it_hab:hover .dropdown2{
-    display: block;
-}
-
-.dropdown .menu_ith{
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
 .menu_fix{
     position: fixed;
     top: 0;
@@ -81,7 +32,7 @@ h1,h2{
 }
 
 .menu_it{
-    font-size: 0.9em;
+    font-size: 0.6em;
 }
 
 .menu_ith{
@@ -90,7 +41,7 @@ h1,h2{
 
 .menu li{
     padding-bottom: 1.0%;
-    padding-top: 1.0%;
+    padding-top: 0.5%;
 }
 
 p{
@@ -118,6 +69,18 @@ header{
     position: relative;
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width:600px) {
+    .banner{
+      margin-top: 47.3%;
+    }
+  
+    .logo{
+      padding-top: 1%;
+      padding-bottom: 1%;
+      text-align: center;
+    }
 }
 
 @media screen and (min-width:601px){
