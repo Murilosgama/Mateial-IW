@@ -11,20 +11,29 @@
 	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
+	<header class="menu_fix">
 		<div class="logo">
 			<a href="index.html"><img class="logo-top" src="img/logo do cuphad.png"></a>
 		</div>
-		<nav>
+		<nav class="it_menu">
 			<ul class="menu">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="Habilidades.html">Habilidades</a></li>
-				<li><a href="index.html#hist">História</a></li>
-				<li><a href="index.html#jog">Jogabilidade</a></li>
-				<li><a href="index.html#cur">Curiosidades</a></li>
-				<li><a href="index.html#vid">Videos</a></li>
-				<li><a href="Habilidades.html#tiro">Tiros</a></li>
-				<li><a href="Habilidades.html#tab">Tabela de tiros</a></li>
+				<li class="menu_it_home"><a href="index.html">Home</a>
+					<ul class="dropdown">
+						<li class="menu_ith"><a href="#hist">História</a></li>
+						<li class="menu_ith"><a href="#jog">Jogabilidade</a></li>
+						<li class="menu_ith"><a href="#cur">Curiosidades</a></li>
+						<li class="menu_ith"><a href="#vid">Videos</a></li>
+					</ul>
+				</li>
+				<li class="menu_it_hab"><a href="Habilidades.html">Habilidades</a>
+					<ul class="dropdown2">
+						<li class="menu_ith"><a href="Habilidades.html#tiro">Tiros</a></li>
+						<li class="menu_ith"><a href="Habilidades.html#tab">Tabela</a></li>
+					</ul>
+				</li>
+				<li class="menu_it"><a href="Contato.html">Contato</a></li>
+				
+			</ul>
 		</nav>
 	</header>
 	<figure class="bannerfig">
