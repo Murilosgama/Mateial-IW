@@ -71,19 +71,45 @@ header{
     flex-direction: column;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:759px) {
     .banner{
-      margin-top: 47.3%;
+      margin-top: 44%;
     }
-  
+
+    .banner2{
+        margin-top: 40%;
+    }
+
+    .banner3{
+        margin-top: 33%;
+    }
+
     .logo{
-      padding-top: 1%;
-      padding-bottom: 1%;
-      text-align: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        text-align: center;
+    }
+
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .contato{
+        flex-direction: column;
+    }
+
+    .col-25, .col-75, input[type=submit]{
+        width: 100%;
+        margin-top: 0;
+    }
+
+    label{
+        font-size: small;
     }
 }
 
-@media screen and (min-width:601px){
+@media screen and (min-width:760px){
     header{
         flex-direction: row;
         background-color: orange;
@@ -102,6 +128,14 @@ header{
       }
     
       .banner{
+        margin-top: 8%;
+      }
+
+      .banner2{
+        margin-top: 8%;
+      }
+
+      .banner3{
         margin-top: 8%;
       }
     
@@ -128,6 +162,14 @@ nav{
 }
 
 .banner{
+    width: 80%;
+}
+
+.banner3{
+    width: 80%;
+}
+
+.banner2{
     width: 80%;
 }
 
@@ -598,4 +640,68 @@ th, td{
     bottom: 5px;
     right: 10px;
     font-size: 0.3em;
+}
+
+.col-25 {
+    width: 25%;
+    float: left;
+    margin-top: 8px;
+}
+
+.col-75 {
+    width: 75%;
+    float: left;
+    margin-top: 8px;
+}
+
+.contato {
+    background-color: #eb790f;
+    padding: 3%;
+    border-radius: 9px;
+    margin: 1%;
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+}
+
+input[type=text],
+select,
+textarea,
+input[type=cel],
+input[type=email] {
+    width: 85%;
+    padding: 10px;
+    border: 2px solid #ff0000;
+    border-radius: 25px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #ff0000;
+    color: rgb(255, 191, 0);
+    padding: 10px 20px;
+    border: 2px solid #ff0000;
+    border-radius: 15px;
+    cursor: default;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(255, 0, 0);
+    color: #eeff00;
+    font-weight: bolder;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+label {
+    padding: 10px 10px 10px 0;
+    display: inline-block;
+}
+
+.enviar {
+    margin-top: 2%;
 }
